@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap/css/bootstrap.css" />
+  <script src="https://kit.fontawesome.com/8b991d0978.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-------------Navbar ----------->
+  <nav class="navbar">
+    <div class="max-width">
+      <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+      <ul class="menu">
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--- header section start --->
+  <section id="header">
+    <div class="container">
+      <div class="header-text">
+
+        <h1>
+          Hii, I'm <br><span>Tanya Acharjee</span><br />
+        </h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- --------ABOUT SECTION-------- -->
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about">
+          <img src="images/T.jpg" alt="" />
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About me</h1>
+          <br>
+          <p>
+            I'm Tanya and I'm a Designer, Developer, Photographer.|
+            I am aspiring to help brands with their software development and deployment. My major interest lies in
+            cybersecurity, solving social problems with technology, and extending my skills to start-ups to handle their
+            technical tasks for better growth and management.
+          </p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">
+              Skills
+            </p>
+
+            </p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+
+          <div class="tab-contents active-tab id" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br />Designing web app interfaces</li>
+              <li><span>Web Developement</span><br />Web app Developement</li>
+              <li>
+                <span>App Developement</span><br />Building Android/iOS apps
+              </li>
+            </ul>
+          </div>
+
+
+
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2023-Current</span><br />Pursuing MCA at CMRIT</li>
+              <li><span>2019-2022</span><br />BCA at Techno India</li>
+              <li><span>2019</span><br />Schooling</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --------------SERVICES---------------- -->
+
+  <section id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-sharp fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>
+            We pride ourselves on delivering projects on time and within budget, without compromising on
+            quality. Our goal is to exceed your expectations and help your business thrive in the
+            digital landscape.
+
+
+          </p>
+          <a href="#">learn more</a>
+        </div>
+
+        <div>
+          <i class="fa-sharp fa-solid fa-crop"></i>
+          <h2>UI/UX Design</h2>
+          <p>
+            User interface/user experience design is one of the hottest areas in technology today. UX / UI design has
+            become more “trendy” as more and more things move online. Now, with the “internet of things,” nearly
+            everything needs some sort of attention to the user experience.
+          </p>
+          <a href="#">learn more</a>
+        </div>
+
+        <div>
+          <i class="fa-brands fa-app-store-ios"></i>
+          <h2>Apps Design</h2>
+          <p>
+            We prioritize understanding your target audience and their needs to create intuitive and
+            user-friendly designs. Through careful research and user testing, we ensure that every
+            interaction within your app is intuitive, enhancing user satisfaction and retention.
+          </p>
+          <a href="#">learn more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- -------portfolio-------------- -->
+  <section id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Projects</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/work-1.png" alt="" />
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>
+              The app connects you to the talented people around the world.
+              Downlaod it from the playstore.
+            </p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/Object.png" alt="" />
+          <div class="layer">
+            <h3>Object Detection</h3>
+            <p>
+              This picture shows that how many objects will be there whether it is vechiles or person and it count the
+              number of Objects.
+            </p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/Foodie.png" alt="" />
+          <div class="layer">
+            <h3>Restaurant Web App</h3>
+            <p>
+              From this Restaurant website anyone can order their food online and gets variety of dishes with some
+              discount on some of the items and also available prebooking services.
+            </p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+    </div>
+  </section>
+
+  <!-- -------------CONTACT--------------- -->
+
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+          <p><i class="fa-solid fa-phone-volume"></i></i>+91-9304126939</p>
+          <div class="social-icons">
+            <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <a href="images/Tanya_Acharjee.pdf" download class="btn btn2">Downlaod CV</a>
+        </div>
+        <div class="contact-right">
+          <form>
+            <input type="text" placeholder="Your name" name="name" required />
+            <input type="email" placeholder="Your Email" name="email" required />
+            <textarea name="Message" id="" cols="20" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Created By Tanya Acharjee | &#169 2023 All rights reserved. </p>
+    </div>
+  </section>
+
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+      for (var tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+
+      for (var tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+</body>
+
+</html>
